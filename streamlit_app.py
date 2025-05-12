@@ -55,7 +55,7 @@ with st.sidebar:
     def clear_chat_history():
         st.session_state.messages = [{
             "role": "assistant", 
-            "content": "Assalamu alaikum 🍁, I'm your personal chatbot, here to assist you! 😊"
+            "content": "Assalamu alaikum 🍁, I'm Bulipe Tech personal service chatbot, here to assist you! 😊"
         }]
     st.button('Clear Chat History', on_click=clear_chat_history)
 
@@ -63,7 +63,7 @@ with st.sidebar:
 if "messages" not in st.session_state:
     st.session_state.messages = [{
         "role": "assistant", 
-        "content": "Assalamu alaikum 🍁, I'm your personal chatbot, here to assist you! 😊"
+        "content": "Assalamu alaikum 🍁, I'm Bulipe Tech personal service chatbot, here to assist you! 😊"
     }]
 
 # Display chat messages
